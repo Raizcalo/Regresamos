@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regresar con mi ex en GitHub</title>
+</head>
+<body>
+    <h1>Enviar mensaje a mi ex en GitHub</h1>
+    <form action="https://github.com/tu-usuario/tu-repositorio/issues/new" method="post">
+        <input type="hidden" name="title" value="Mensaje para regresar">
+        <input type="hidden" name="body" value="Hola te amo, ¿podemos hablar?">
+        <input type="hidden" name="labels" value="regresar-con-mi-ex">
+        <input type="submit" value="Enviar mensaje">
+    </form>
+</body>
+</html>
